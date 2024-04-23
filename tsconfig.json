@@ -1,0 +1,26 @@
+{
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types"],
+    "paths": {},
+    "strict": true,
+    "alwaysStrict": true,
+    "allowJs": false,
+    "checkJs": false,
+    "declaration": true,
+    "incremental": false,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  }
+}
